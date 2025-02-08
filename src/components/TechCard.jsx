@@ -1,6 +1,6 @@
 export default function TechCard({ img, h3 }) {
     return (
-        <div className="col-3">
+        <div className="col-3 col-6-mobile">
             <article className="item">
                 <img src={img} />
                 <header>
