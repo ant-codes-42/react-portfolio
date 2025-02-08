@@ -10,7 +10,7 @@ export default function Contact() {
                         <h2>Contact Me</h2>
                     </header>
 
-                    <p>You may fill out the form below to contact me. Additionally, please note my GitHub and Email buttons in the navigation bar
+                    <p>You may fill out the form below to contact me. Additionally, please note my GitHub, Email, and Dev.to buttons in the navigation bar
                         which are always great ways to reach out!
                     </p>
 
