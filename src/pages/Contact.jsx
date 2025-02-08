@@ -1,9 +1,9 @@
-import AnimatedSection from "../components/AnimatedSection";
+import Form from "../components/Form";
 
 export default function Contact() {
     return (
         <div id='main'>
-            <AnimatedSection id="contact" className="four">
+            <section id="contact" className="four">
                 <div className="container">
 
                     <header>
@@ -14,21 +14,10 @@ export default function Contact() {
                         which are always great ways to reach out!
                     </p>
 
-                    <form method="post" action="#">
-                        <div className="row">
-                            <div className="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-                            <div className="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-                            <div className="col-12">
-                                <textarea name="message" placeholder="Message"></textarea>
-                            </div>
-                            <div className="col-12">
-                                <input type="submit" value="Send Message" />
-                            </div>
-                        </div>
-                    </form>
+                    <Form />
 
                 </div>
-            </AnimatedSection>
+            </section>
         </div>
     );
 }

@@ -134,6 +134,10 @@ input, select, textarea {
 			color: #888;
 		}
 
+    h2.title {
+      color: #333;
+    }
+
 			h2.alt strong {
 				color: #666;
 			}
@@ -394,6 +398,11 @@ input, select, textarea {
 		.row > .col-12 {
 			width: 100%;
 		}
+
+    .row > .error p {
+      color: #f00;
+      font-weight: bold;
+    }
 
 		.row > .off-12 {
 			margin-left: 100%;
@@ -2251,6 +2260,13 @@ input, select, textarea {
 				background-image: url("./assets/images/fujinomiya-hara.jpeg");
 			}
 
+      #main > section.one header {
+        background-color: #fff;
+        border-radius: 0.35em;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        padding: 1em;
+      }
+
 			#main > section.two {
 				background-color: #f5fafa;
 			}
@@ -2262,6 +2278,10 @@ input, select, textarea {
 			#main > section.four {
 				background-color: #e8edec;
 			}
+
+      #main > section.five {
+        background-color: #81918E;
+      }
 
 /* Wide */
 

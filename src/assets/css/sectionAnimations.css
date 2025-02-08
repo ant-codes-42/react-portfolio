@@ -2,13 +2,13 @@
 .animated-section {
     opacity: 0;
     will-change: opacity, transform;
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition: opacity 1.6s ease-out, transform 1.6s ease-out;
 }
 
 /* Initial state for sections when scrolling down */
 .animated-section:not(.section-visible).scroll-up-animation {
     /* Start from below viewport */
-    transform: translateY(60px);
+    transform: translateY(100vh);
 }
 
 /* Initial state for sections when scrolling up */
