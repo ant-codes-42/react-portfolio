@@ -1,3 +1,4 @@
+// Social icons on the bottom of the navbar
 export default function Social() {
     return(
         <ul className='icons'>

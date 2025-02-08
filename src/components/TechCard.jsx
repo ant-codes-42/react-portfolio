@@ -1,3 +1,4 @@
+// These are for the tech stack icons
 export default function TechCard({ img, h3 }) {
     return (
         <div className="col-3 col-6-mobile">

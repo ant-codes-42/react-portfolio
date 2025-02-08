@@ -1,5 +1,6 @@
 import { Link } from 'react-router'
 
+// Navbar (sits inside of the #header div on the side)
 export default function Nav() {
     return (
         <header>

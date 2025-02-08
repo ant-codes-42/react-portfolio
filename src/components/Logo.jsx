@@ -1,3 +1,4 @@
+// This is the top "header" of the "header" div / navbar
 export default function Logo() {
     return (
         <div id='logo'>

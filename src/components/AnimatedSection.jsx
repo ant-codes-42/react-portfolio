@@ -1,3 +1,6 @@
+// This is not being used anywhere
+// It doesn't quite work but I'm keeping it here for the future / to borrow from myself and work on later
+
 import React, { useEffect, useRef, useState } from 'react';
 import '../assets/css/sectionAnimations.css';
 
